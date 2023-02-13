@@ -1,0 +1,25 @@
+ANALYSIS REPORT
+
+According to our analysis, if a pet is energetic, a person is most likely to be happy regardless of the other features.
+It's a mixed bag of happiness if the pet isn't energetic.
+
+As a result of the data having a correlated feature, our AI detected patterns that we didn't expect.
+
+
+
+To correct the first mistake:
+We must gather new data and ensure that the number of cat and dog owners is balanced.
+
+To correct the second error: 
+We should ensure that the features are actually the most important things we care about when it comes to happiness.
+Therefore we can just remove "energetic" from the dataset and not worry about it becoming a correlated feature during training.
+However, we need be more cautious to avoid biassing the other characteristics as well.
+
+
+
+It's important to note that not every situation is this simple.
+We can't just eliminate features that don't have a clear significance in some AI,
+or we might need to keep features since they're the only measurable values.
+
+The major conclusion is that there aren't always simple and flawless solutions when it comes to constructing AI systems.
+It is essential that you iterate on your designs and adjust for biases wherever possible!
